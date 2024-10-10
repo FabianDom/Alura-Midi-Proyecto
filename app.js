@@ -1,8 +1,6 @@
+function hola () {
+        let audioPom = document.getElementById('sonido_tecla_pom').play();
+   
+}
 
-    let botonPom = document.getElementsByClassName('.tecla_pom')
-    let audioPom = document.querySelectorById('sonido_tecla_pom')
-
-  botonPom.addEventListener('click', function() {
-    audioPom.currentTime = 0;
-   audioPom.play()
-  });
+document.querySelector('.tecla_pom').onclick = hola
